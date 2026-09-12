@@ -3,7 +3,7 @@
 **Student:** Vy Nguyen
 **Course:** CIS 4374
 **Project:** Smart Parking Platform — Semester Project
-**Date:** September 10, 2026
+**Date:** September 11, 2026
 
 ## AI Tool Used
 

@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
-**Version:** 0.1 (Week 1)
-**Last updated:** September 7, 2026
+**Version:** 0.2 (Week 2)
+**Last updated:** September 11, 2026
 
 ## Table of Contents
 
@@ -73,7 +73,48 @@ Additional requirements will be identified through stakeholder analysis and requ
 
 ## Research Component
 
-*To be completed in a future week:* a competitive analysis of existing parking solutions, identifying strengths, weaknesses, and opportunities for differentiation.
+## Work Breakdown Structure & Timeline
+
+### Work Breakdown Structure (Parking App)
+
+1. Smart Parking Platform
+   1. Authentication & User Management
+      1. User registration (driver)
+      2. Operator registration
+      3. Login / session management
+      4. Password reset
+   2. Driver-Facing Features
+      1. Search & find available parking
+      2. View garage details (price, hours, availability)
+      3. Reserve a parking spot
+      4. Payment processing
+      5. Reservation confirmation & receipt
+   3. Operator Dashboard
+      1. Add / edit / remove garage
+      2. Set pricing & availability rules
+      3. Monitor real-time occupancy
+      4. Manage reservations
+   4. Reporting
+      1. Occupancy graphs
+      2. Revenue/financial reports
+      3. Export reports (PDF/CSV)
+   5. Project Management Docs
+      1. Update PROJECT.md / VISION_AND_SCOPE.md / SRS.md
+      2. Weekly video updates
+
+### Draft Timeline
+
+This is a rough draft timeline and will be refined as scope firms up.
+
+![Draft Gantt Chart](./assets/gantt-draft-hw2.png)
+
+| Phase | Weeks |
+|---|---|
+| Authentication & user management | 2–3 |
+| Driver-facing features | 3–5 |
+| Operator dashboard | 4–6 |
+| Reporting | 6–7 |
+| PM docs (ongoing) | 2–8 |
 
 ## Weekly Update Log
 
@@ -83,4 +124,10 @@ Additional requirements will be identified through stakeholder analysis and requ
 - Drafted initial project document (overview, business need, high-level requirements, stakeholders, development teams, constraints)
 - Recorded week 1 video update for stakeholders
 
-**Next week:** [fill in next assignment — e.g., stakeholder analysis / competitive research]
+### Week 2 — September 11, 2026
+
+- Created Work Breakdown Structure (3+ levels deep) for the Parking App
+- Drafted project timeline including Gantt chart
+- Recorded week 2 video update for stakeholders
+
+
