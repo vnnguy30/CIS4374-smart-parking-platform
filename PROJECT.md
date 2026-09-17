@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
 **Version:** 0.2 (Week 2)
-**Last updated:** September 11, 2026
+**Last updated:** September 17, 2026
 
 ## Table of Contents
 
