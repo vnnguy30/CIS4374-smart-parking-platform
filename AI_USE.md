@@ -3,7 +3,7 @@
 **Student:** Vy Nguyen
 **Course:** CIS 4374
 **Project:** Smart Parking Platform — Semester Project
-**Date:** September 17, 2026
+**Date:** September 24, 2026
 
 ## AI Tool Used
 
@@ -17,6 +17,7 @@ I used Claude as a support tool while working on this project, mainly to:
 - Get a starting structure for functional/non-functional requirements and use cases, which I then reviewed and adjusted to fit my understanding of the project.
 - Help simplify wording for my recorded video update, since English is my second language and I wanted to make sure I could speak clearly and naturally.
 - Troubleshoot technical issues with Git and GitHub (for example, when files were accidentally saved empty, or when I needed help figuring out the right folder structure).
+- Used to check my understanding of Agile concepts as I built out the backlog and Sprint 1 board in Trello myself.
 
 ## My Role in the Project
 

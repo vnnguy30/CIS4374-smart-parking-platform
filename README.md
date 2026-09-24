@@ -8,7 +8,8 @@ This repository contains the semester-long project management plan for the **Sma
 - `VISION_AND_SCOPE.md` — vision statement, project scope, and competitive landscape notes.
 - `SRS.md` — software requirements specification, including functional/non-functional requirements and use cases.
 - `AI_USE.md` — disclosure of how AI tools were used to support this project.
-- `assets/` — supporting images (e.g., Gantt chart) referenced in the project documents.
+- `assets/` — supporting images (Gantt chart) referenced in the project documents.
+- `docs/` — supporting screenshots and exports (Trello board) referenced in the project documents.
 
 ## Weekly Process
 
@@ -21,3 +22,4 @@ Each week:
 
 Week 1 — initial project overview, requirements, stakeholders, and teams drafted.
 Week 2 — added Work Breakdown Structure and draft project timeline (Gantt chart) for the Parking App.
+Week 3 — created full product backlog (45 items) and planned Sprint 1 in Trello; added `docs/` folder with Sprint 1 board screenshot.

@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
-**Version:** 0.2 (Week 2)
-**Last updated:** September 17, 2026
+**Version:** 0.3 (Week 3)
+**Last updated:** September 24, 2026
 
 ## Table of Contents
 
@@ -116,6 +116,27 @@ This is a rough draft timeline and will be refined as scope firms up.
 | Reporting | 6–7 |
 | PM docs (ongoing) | 2–8 |
 
+## Product Backlog & Sprint Planning
+
+A full product backlog (45 items across Login, UI, Backend, and Reporting) was created and planned into Sprint 1 using Trello. See the board screenshot below.
+
+![Sprint 1 Trello Board](./docs/sprint1-board.png)
+
+**Sprint 1 goal:** Users can register/login, and drivers can search for and reserve a parking spot.
+
+Sprint 1 scope (11 items):
+- User registration (email/password) for drivers
+- Operator login (separate role/permissions)
+- Password reset flow
+- Logout functionality
+- Driver: search parking spots by location
+- Driver: reserve a spot (date/time picker)
+- API: create user account
+- API: authenticate user (login/token)
+- API: create reservation
+- Database schema: users table
+- Database schema: reservations table
+
 ## Weekly Update Log
 
 ### Week 1 — September 7, 2026
@@ -130,4 +151,9 @@ This is a rough draft timeline and will be refined as scope firms up.
 - Drafted project timeline including Gantt chart
 - Recorded week 2 video update for stakeholders
 
+### Week 3 — September 24, 2026
 
+- Created full product backlog (45 items) covering Login, UI, Backend, and Reporting for both driver and operator roles
+- Planned Sprint 1 (11 items) in Trello
+- Saved Sprint 1 board screenshot to `docs/sprint1-board.png`
+- Recorded week 3 video update for stakeholders
