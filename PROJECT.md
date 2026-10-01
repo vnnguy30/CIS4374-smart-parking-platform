@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
-**Version:** 0.3 (Week 3)
-**Last updated:** September 24, 2026
+**Version:** 0.4 (Week 4)
+**Last updated:** October 1, 2026
 
 ## Table of Contents
 
@@ -137,6 +137,39 @@ Sprint 1 scope (11 items):
 - Database schema: users table
 - Database schema: reservations table
 
+## Risk Management & Communication Plan
+
+### Risks by Category
+
+**Technical:** parking data sync errors, mapping API downtime, payment security issues, app inconsistency across platforms
+
+**Schedule:** payment integration delays, dashboard scope creep, compressed testing time, vendor delays
+
+**Financial:** API costs over budget, scope-change costs, hosting costs underestimated, payment fees cut into revenue
+
+**People:** developer unavailable, team miscommunication, inexperience with tech stack, stakeholder unavailable for feedback
+
+### Risk Register
+
+| ID | Description | Probability | Impact | Owner | Response | Status |
+|----|---|---|---|---|---|---|
+| R01 | Parking data fails to sync | Medium | High | Backend Team | Mitigate | Open |
+| R02 | Mapping API downtime | Medium | High | Mapping Team | Mitigate | Open |
+| R03 | Payment security vulnerability | Low | High | Payment Team | Avoid | Open |
+| R04 | App inconsistent across platforms | Medium | Medium | Mobile/Web Team | Mitigate | Open |
+| R05 | Payment integration delayed | Medium | Medium | Payment Team | Accept | Monitoring |
+| R06 | Dashboard scope creep | Medium | Medium | Web Team | Mitigate | Monitoring |
+| R07 | Testing time compressed | Medium | High | QA Team | Mitigate | Open |
+| R08 | API costs exceed budget | Medium | Medium | PM | Mitigate | Open |
+| R09 | Developer unavailable | Medium | High | PM | Mitigate | Monitoring |
+| R10 | Team miscommunication | Medium | Medium | PM | Mitigate | Open |
+
+### Communication Plan
+
+- **Weekly team sync** for each development team to review progress and blockers
+- **Bi-weekly stakeholder update** summarizing progress, risks, and milestones
+- **Reporting via:** Trello board, written updates in `PROJECT.md`, weekly video update
+
 ## Weekly Update Log
 
 ### Week 1 — September 7, 2026
@@ -156,4 +189,11 @@ Sprint 1 scope (11 items):
 - Created full product backlog (45 items) covering Login, UI, Backend, and Reporting for both driver and operator roles
 - Planned Sprint 1 (11 items) in Trello
 - Saved Sprint 1 board screenshot to `docs/sprint1-board.png`
-- Recorded week 3 video update for stakeholders
+- Recorded week 3 video update for stakeholders\
+
+### Week 4 — September 30, 2026
+
+- Identified 4+ risks per category (technical, schedule, financial, people)
+- Built a Risk Register with 10 entries
+- Created a Communication Plan for team meetings and reporting
+- Recorded week 4 video update for stakeholders
