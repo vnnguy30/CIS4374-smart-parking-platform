@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
-**Version:** 0.4 (Week 4)
-**Last updated:** October 1, 2026
+**Version:** 0.5 (Week 5)
+**Last updated:** October 4, 2026
 
 ## Table of Contents
 
@@ -170,6 +170,60 @@ Sprint 1 scope (11 items):
 - **Bi-weekly stakeholder update** summarizing progress, risks, and milestones
 - **Reporting via:** Trello board, written updates in `PROJECT.md`, weekly video update
 
+
+## Resource & Cost Management
+
+### Roles & Resources
+
+| Role | Name (fictional) | Skill Level | % Allocation |
+|---|---|---|---|
+| Project Manager | Alex Rivera | Senior | 25% |
+| Backend Developer | Sam Patel | Mid-level | 100% |
+| Frontend/Web Developer | Jordan Lee | Mid-level | 100% |
+| Mobile Developer | Casey Nguyen | Mid-level | 75% |
+| Mapping & Location Specialist | Morgan Diaz | Senior | 50% |
+| Payment Integration Developer | Taylor Kim | Mid-level | 50% |
+| QA/Test Engineer | Riley Chen | Junior | 75% |
+
+### Resource Plan (Bottom-Up)
+
+| Role | Name | FTE % | Estimated Hours | Hourly Rate | Cost |
+|---|---|---|---|---|---|
+| Project Manager | Alex Rivera | 25% | 80 | $60 | $4,800 |
+| Backend Developer | Sam Patel | 100% | 320 | $55 | $17,600 |
+| Frontend/Web Developer | Jordan Lee | 100% | 320 | $50 | $16,000 |
+| Mobile Developer | Casey Nguyen | 75% | 240 | $50 | $12,000 |
+| Mapping & Location Specialist | Morgan Diaz | 50% | 160 | $65 | $10,400 |
+| Payment Integration Developer | Taylor Kim | 50% | 160 | $55 | $8,800 |
+| QA/Test Engineer | Riley Chen | 75% | 240 | $35 | $8,400 |
+| **Total** | | | **1,520** | | **$78,000** |
+
+### Cost Plan & Monthly Cashflow
+
+Project runs 8 weeks (~2 months) for this semester simulation.
+
+| Month | Planned Spend | Notes |
+|---|---|---|
+| Month 1 | $42,000 | Heaviest phase — auth, driver features, dashboard build-out |
+| Month 2 | $36,000 | Reporting, testing, QA, wrap-up |
+| **Total** | **$78,000** | |
+
+### RACI Matrix
+
+**R** = Responsible, **A** = Accountable, **C** = Consulted, **I** = Informed
+
+| Task/Deliverable | PM (Alex) | Backend (Sam) | Web (Jordan) | Mobile (Casey) | Mapping (Morgan) | Payment (Taylor) | QA (Riley) |
+|---|---|---|---|---|---|---|---|
+| Authentication & login | A | R | C | C | I | I | C |
+| Driver search & reservation | A | R | R | R | C | I | C |
+| Operator dashboard | A | C | R | I | I | I | C |
+| Payment processing | A | C | I | I | I | R | C |
+| Mapping/navigation integration | A | C | I | I | R | I | C |
+| Reporting features | A | R | R | I | I | I | C |
+| Testing & QA | A | C | C | C | C | C | R |
+| Weekly stakeholder updates | R | I | I | I | I | I | I |
+
+
 ## Weekly Update Log
 
 ### Week 1 — September 7, 2026
@@ -197,3 +251,11 @@ Sprint 1 scope (11 items):
 - Built a Risk Register with 10 entries
 - Created a Communication Plan for team meetings and reporting
 - Recorded week 4 video update for stakeholders
+
+### Week 5 — October 4, 2026
+
+- Defined project roles with fictional names, skill levels, and % allocations
+- Built a bottom-up Resource & Cost Plan with estimated hours and total cost
+- Created a monthly budgeted cashflow
+- Created a RACI matrix for key project tasks
+- Recorded week 5 video update for stakeholders
