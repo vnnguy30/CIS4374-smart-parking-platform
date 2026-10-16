@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
-**Version:** 0.5 (Week 5)
-**Last updated:** October 4, 2026
+**Version:** 0.6 (Week 6)
+**Last updated:** October 15, 2026
 
 ## Table of Contents
 
@@ -12,7 +12,11 @@
 5. [Development Teams](#development-teams)
 6. [Project Constraints](#project-constraints)
 7. [Research Component](#research-component)
-8. [Weekly Update Log](#weekly-update-log)
+8. [Work Breakdown Structure & Timeline](#work-breakdown-structure--timeline)
+9. [Product Backlog & Sprint Planning](#product-backlog--sprint-planning)
+10. [Risk Management & Communication Plan](#risk-management--communication-plan)
+11. [Resource & Cost Management](#resource--cost-management)
+12. [Weekly Update Log](#weekly-update-log)
 
 ---
 
@@ -83,12 +87,16 @@ Additional requirements will be identified through stakeholder analysis and requ
       2. Operator registration
       3. Login / session management
       4. Password reset
+      5. Role-based access (driver / operator / admin)
+      6. Admin account management
    2. Driver-Facing Features
       1. Search & find available parking
       2. View garage details (price, hours, availability)
       3. Reserve a parking spot
       4. Payment processing
       5. Reservation confirmation & receipt
+      6. Notifications
+      7. Navigation to reserved spot
    3. Operator Dashboard
       1. Add / edit / remove garage
       2. Set pricing & availability rules
@@ -101,26 +109,32 @@ Additional requirements will be identified through stakeholder analysis and requ
    5. Project Management Docs
       1. Update PROJECT.md / VISION_AND_SCOPE.md / SRS.md
       2. Weekly video updates
+      3. Sprint planning & backlog (Trello)
+      4. Risk register & communication plan
+      5. Resource & cost plan, RACI
 
 ### Draft Timeline
 
 This is a rough draft timeline and will be refined as scope firms up.
 
-![Draft Gantt Chart](./assets/gantt-draft-hw2.png)
+![Timeline Gantt Chart](./assets/gantt-v2.png)
 
 | Phase | Weeks |
 |---|---|
-| Authentication & user management | 2–3 |
+| Authentication & user management (Sprint 1) | 2–3 |
 | Driver-facing features | 3–5 |
-| Operator dashboard | 4–6 |
-| Reporting | 6–7 |
+| Operator dashboard (Sprint 2) | 4–6 |
+| Payments, pricing & reporting (Sprint 3) | 6–7 |
+| Testing & QA (starts early, runs with development) | 3–8 |
+| Final fixes & wrap-up | 8 |
 | PM docs (ongoing) | 2–8 |
 
 ## Product Backlog & Sprint Planning
 
-A full product backlog (45 items across Login, UI, Backend, and Reporting) was created and planned into Sprint 1 using Trello. See the board screenshot below.
+A full product backlog (45 items across Login, UI, Backend, and Reporting) was created and planned into Sprint 1 and Sprint 2 using Trello. See the board screenshots below.
 
 ![Sprint 1 Trello Board](./docs/sprint1-board.png)
+![Sprint 2 Trello Board](./docs/sprint2-board.png)
 
 **Sprint 1 goal:** Users can register/login, and drivers can search for and reserve a parking spot.
 
@@ -136,6 +150,21 @@ Sprint 1 scope (11 items):
 - API: create reservation
 - Database schema: users table
 - Database schema: reservations table
+
+**Sprint 2 goal:** Operators can manage lots and spots, and drivers can see availability and cancel reservations.
+
+Sprint 2 scope (11 items):
+- Session persistence ("remember me")
+- Driver: view spot availability map
+- Driver: view reservation confirmation screen
+- Driver: view/cancel upcoming reservations
+- Operator: dashboard home
+- Operator: add/edit a parking lot
+- Operator: add/edit individual spots within a lot
+- API: cancel reservation
+- API: check spot availability (real-time)
+- API: create/update parking lot (operator)
+- Database schema: parking lots/spots table
 
 ## Risk Management & Communication Plan
 
@@ -163,6 +192,12 @@ Sprint 1 scope (11 items):
 | R08 | API costs exceed budget | Medium | Medium | PM | Mitigate | Open |
 | R09 | Developer unavailable | Medium | High | PM | Mitigate | Monitoring |
 | R10 | Team miscommunication | Medium | Medium | PM | Mitigate | Open |
+| R11 | Mapping vendor delays integration | Low | Medium | Mapping Team | Transfer | Open |
+| R12 | Scope changes raise costs | Medium | Medium | PM | Mitigate | Open |
+| R13 | Hosting costs underestimated | Low | Medium | Backend Team | Mitigate | Open |
+| R14 | Payment fees reduce revenue | Low | Low | PM | Accept | Open |
+| R15 | Team lacks tech stack experience | Medium | Medium | QA Team | Mitigate | Monitoring |
+| R16 | Stakeholder unavailable for feedback | Low | Medium | PM | Accept | Open |
 
 ### Communication Plan
 
@@ -200,13 +235,21 @@ Sprint 1 scope (11 items):
 
 ### Cost Plan & Monthly Cashflow
 
-Project runs 8 weeks (~2 months) for this semester simulation.
-
 | Month | Planned Spend | Notes |
 |---|---|---|
-| Month 1 | $42,000 | Heaviest phase — auth, driver features, dashboard build-out |
-| Month 2 | $36,000 | Reporting, testing, QA, wrap-up |
-| **Total** | **$78,000** | |
+| Month 1 | $43,200 | Labor $42,000 + non-labor $1,200 |
+| Month 2 | $36,800 | Labor $36,000 + non-labor $800 |
+| Contingency reserve | $8,000 | Held back for risks (10% of $80,000) |
+| **Total** | **$88,000** | |
+
+### Non-Labor Costs
+
+| Item | Cost |
+|---|---|
+| Cloud hosting (2 months) | $600 |
+| Mapping API usage | $800 |
+| Testing devices and tools | $600 |
+| **Non-labor total** | **$2,000** |
 
 ### RACI Matrix
 
@@ -222,6 +265,8 @@ Project runs 8 weeks (~2 months) for this semester simulation.
 | Reporting features | A | R | R | I | I | I | C |
 | Testing & QA | A | C | C | C | C | C | R |
 | Weekly stakeholder updates | R | I | I | I | I | I | I |
+| Sprint planning & backlog | A/R | C | C | C | I | I | C |
+| Risk & budget tracking | A/R | I | I | I | I | I | I |
 
 
 ## Weekly Update Log
@@ -243,7 +288,7 @@ Project runs 8 weeks (~2 months) for this semester simulation.
 - Created full product backlog (45 items) covering Login, UI, Backend, and Reporting for both driver and operator roles
 - Planned Sprint 1 (11 items) in Trello
 - Saved Sprint 1 board screenshot to `docs/sprint1-board.png`
-- Recorded week 3 video update for stakeholders\
+- Recorded week 3 video update for stakeholders
 
 ### Week 4 — September 30, 2026
 

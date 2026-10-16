@@ -1,7 +1,7 @@
 # Software Requirements Specification (SRS): Smart Parking Platform
 
-**Version:** 0.1
-**Last updated:** September 10, 2026
+**Version:** 0.2
+**Last updated:** October 15, 2026
 
 ## 1. Introduction
 
@@ -26,6 +26,11 @@ This document specifies the functional and non-functional requirements, and use 
 | FR-13 | The system shall allow operators to set and update pricing for their parking spaces. |
 | FR-14 | The system shall provide operators with occupancy and revenue analytics reports. |
 | FR-15 | The system shall allow operators to view and manage current and upcoming reservations for their facility. |
+| FR-16 | The system shall allow users to reset a forgotten password through an email link. |
+| FR-17 | The system shall give drivers, operators, and administrators different permissions (role-based access). |
+| FR-18 | The system shall allow administrators to manage and suspend driver and operator accounts. |
+| FR-19 | The system shall automatically cancel a reservation that is not paid within a set time limit. |
+| FR-20 | The system shall allow operators to filter reports by date range and facility, and export them as PDF or CSV. |
 
 ## 3. Non-Functional Requirements
 
@@ -36,6 +41,8 @@ This document specifies the functional and non-functional requirements, and use 
 | NFR-3 | The system must encrypt all payment and personal data in transit and at rest. |
 | NFR-4 | The system shall allow a new driver to complete registration in 3 steps or fewer. |
 | NFR-5 | The system must comply with applicable data privacy regulations and city parking ordinances. |
+| NFR-6 | The system shall respond to 95% of API requests within 500 milliseconds. |
+| NFR-7 | The web app shall work on the current versions of Chrome, Safari, and Edge, and the mobile app on current iOS and Android. |
 
 ## 4. Use Cases
 
@@ -58,6 +65,9 @@ This document specifies the functional and non-functional requirements, and use 
 | 15 | View Revenue Report | Parking Operator | Operator generates a revenue report for a selected time period. |
 | 16 | Manage Reservations | Parking Operator | Operator views, and if necessary overrides or cancels, reservations at their facility. |
 | 17 | System Admin Manages Users | System Administrator | Admin manages driver and operator accounts (e.g., suspending accounts for abuse). |
+| 18 | Reset Password | Driver | Driver requests a password reset link by email and sets a new password. |
+| 19 | Export Report | Parking Operator | Operator filters a report by date range and facility, then exports it as PDF or CSV. |
+| 20 | Expire Unpaid Reservation | System | System cancels a reservation that was not paid in time and frees the space. |
 
 
 ## 5. Future Work
@@ -65,3 +75,4 @@ This document specifies the functional and non-functional requirements, and use 
 - Expand each use case into full use-case specifications (actors, preconditions, trigger, main flow, alternate/exception flows, postconditions).
 - Add sequence/activity diagrams for key flows (reservation + payment).
 - Refine non-functional requirements with measurable targets as research continues.
+- Continue refining non-functional requirements with measurable targets (NFR-6 and NFR-7 added in v0.2).
