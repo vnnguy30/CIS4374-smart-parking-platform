@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
-**Version:** 0.6 (Week 6)
-**Last updated:** October 15, 2026
+**Version:** 0.7 (Week 7)
+**Last updated:** October 29, 2026
 
 ## Table of Contents
 
@@ -269,6 +269,83 @@ Sprint 2 scope (11 items):
 | Risk & budget tracking | A/R | I | I | I | I | I | I |
 
 
+## Stakeholder Analysis & Charters
+
+### Stakeholder Analysis (Power-Interest Grid)
+
+![Stakeholder Power-Interest Grid](./docs/stakeholder-grid.png)
+
+| # | Stakeholder | Power | Interest | Strategy | What we do |
+|---|---|---|---|---|---|
+| 1 | Executive sponsor | High | High | Manage closely | Approves budget and scope. Gets a bi-weekly update and a say in big decisions. |
+| 2 | Parking facility operators | High | High | Manage closely | They run the dashboard every day. Ask for feedback on every sprint demo. |
+| 3 | City transportation departments | High | Low | Keep satisfied | Their rules must be followed. Check ordinances early and share compliance notes. |
+| 4 | Third-party payment providers | High | Low | Keep satisfied | Their rules decide how payments work. Follow their security rules and test early. |
+| 5 | Mapping service provider | High | Low | Keep satisfied | The map and navigation depend on them. Watch their service status and have a backup plan. |
+| 6 | System administrators | Low | High | Keep informed | They manage accounts. Share release notes and the admin features. |
+| 7 | Finance and billing personnel | Low | High | Keep informed | They use receipts and revenue reports. Show them the report designs. |
+| 8 | Drivers and vehicle owners | Low | High | Keep informed | They are the main users. Share progress and collect feedback. |
+| 9 | Mobile application users | Low | High | Keep informed | They use the mobile app. Test on phones and share updates. |
+| 10 | Nearby businesses and residents | Low | Low | Monitor | Watch for complaints about traffic or parking. No regular updates needed. |
+
+### Project Charter
+
+| Item | Details |
+|---|---|
+| Project name | Smart Parking Platform |
+| Company | $oftware ¢orp. (fictitious) |
+| Project manager | Alex Rivera (fictional) |
+| Executive sponsor | Jamie Torres (fictional) |
+| Purpose | Help drivers find, reserve, and pay for parking in real time, and help operators manage their lots. |
+| Business need | Drivers waste time searching for parking. Operators need better tools for occupancy and pricing. |
+| Objectives | 1. Finish a working plan and build for web and mobile apps in 8 weeks. 2. Let drivers search, reserve, and pay for a spot. 3. Give operators a dashboard for lots, prices, and reports. 4. Stay within the $88,000 budget. |
+| In scope | Driver and operator accounts, availability map, reservations, payments, receipts, operator dashboard, reports, notifications, navigation. |
+| Out of scope | Hardware at the garages (gates, sensors), a public API for other companies, and support for countries outside the US. |
+| Main deliverables | SRS, user stories, work breakdown, timeline, backlog and sprints, risk register, cost plan, RACI, weekly videos, and the working platform. |
+| Milestones | Week 3: Sprint 1 done. Week 6: Sprint 2 done. Week 7: Sprint 3 done. Week 8: final fixes and wrap-up. |
+| Budget | $88,000 total: $78,000 labor, $2,000 other costs, and an $8,000 reserve. |
+| Assumptions | The team is available at the planned percentages. Payment and map services stay available. Requirements stay close to the SRS. |
+| Constraints | Fixed 8-week schedule, third-party services, and security, privacy, and city rules. |
+| Top risks | Parking data sync problems (R01), map service downtime (R02), and testing time getting too short (R07). |
+| Success criteria | Drivers can reserve and pay for a spot. Operators can manage lots and see reports. The project finishes on time and within budget. |
+| Authority | The project manager can move work between sprints and approve spending inside the plan. Budget or scope changes need the sponsor. |
+| Approval | Jamie Torres, Executive Sponsor (fictional). Date: October 25, 2026. |
+
+### Team Charter
+
+**Team name:** Smart Parking Platform Team
+
+**Team purpose:** Build the Smart Parking Platform on time and within budget, and keep clear, honest communication.
+
+**Members and roles**
+
+| Name | Role |
+|---|---|
+| Alex Rivera | Project Manager |
+| Sam Patel | Backend Developer |
+| Jordan Lee | Frontend/Web Developer |
+| Casey Nguyen | Mobile Developer |
+| Morgan Diaz | Mapping & Location Specialist |
+| Taylor Kim | Payment Integration Developer |
+| Riley Chen | QA/Test Engineer |
+
+**Team values:** respect, honesty, quality over speed, and asking for help early.
+
+**Ground rules**
+- Hold a weekly team sync, and share updates through the Trello board.
+- Reply to team messages within 1 business day.
+- Say right away when work is late or blocked.
+- Every task needs an owner, listed in the RACI matrix.
+- Finish work before moving a Trello card to Done: it is built, tested, and reviewed by one other person.
+- Review each other's work and give feedback kindly.
+
+**Decisions:** The team talks first and tries to agree. If we cannot agree, the owner of that area decides. Scope, budget, or schedule changes go to the project manager and then the sponsor.
+
+**Conflicts:** Talk to the person first. If it is not solved, bring it to the project manager. If it is still not solved, the sponsor decides.
+
+**Team agreement:** Every member agrees to follow this charter.
+
+
 ## Weekly Update Log
 
 ### Week 1 — September 7, 2026
@@ -304,3 +381,19 @@ Sprint 2 scope (11 items):
 - Created a monthly budgeted cashflow
 - Created a RACI matrix for key project tasks
 - Recorded week 5 video update for stakeholders
+
+### Week 6 — October 15, 2026
+
+- Updated SRS to v0.2: 5 new functional requirements, 2 new non-functional requirements, and 3 new use cases
+- Added User Stories (12 stories)
+- Updated the WBS, timeline, and Table of Contents
+- Planned Sprint 2 and added a new Trello screenshot
+- Completed the Risk Register (16 risks)
+- Added non-labor costs and a contingency reserve to the Cost Plan, and updated the RACI
+- Recorded week 6 video update for stakeholders
+
+### Week 7 — October 25, 2026
+
+- Created a stakeholder analysis with a Power-Interest Grid
+- Wrote a project charter and a team charter
+- Recorded week 7 video update for stakeholders
