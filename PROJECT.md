@@ -272,7 +272,7 @@ Sprint 2 scope (11 items):
 ## Stakeholder Analysis & Charters
 
 ### Stakeholder Analysis (Power-Interest Grid)
-
+![Stakeholder Power-Interest Grid](./docs/stakeholder-grid.png)
 
 | # | Stakeholder | Power | Interest | Strategy | What we do |
 |---|---|---|---|---|---|
