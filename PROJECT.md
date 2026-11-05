@@ -136,10 +136,11 @@ The project runs from **Monday, September 14, 2026 to Friday, October 30, 2026**
 
 ## Product Backlog & Sprint Planning
 
-A full product backlog (45 items across Login, UI, Backend, and Reporting) was created and planned into Sprint 1 and Sprint 2 using Trello. See the board screenshots below.
+A full product backlog (48 items across Login, UI, Backend, and Reporting) was created in Trello and planned into three sprints. See the board screenshots below.
 
 ![Sprint 1 Trello Board](./docs/sprint1-board.png)
 ![Sprint 2 Trello Board](./docs/sprint2-board.png)
+![Sprint 3 Trello Board](./docs/sprint3-board.png)
 
 **Sprint 1 goal:** Users can register/login, and drivers can search for and reserve a parking spot.
 
@@ -158,7 +159,7 @@ Sprint 1 scope (11 items):
 
 **Sprint 2 goal:** Operators can manage lots and spots, and drivers can see availability and cancel reservations.
 
-Sprint 2 scope (11 items):
+Sprint 2 scope (12 items):
 - Session persistence ("remember me")
 - Driver: view spot availability map
 - Driver: view reservation confirmation screen
@@ -170,6 +171,25 @@ Sprint 2 scope (11 items):
 - API: check spot availability (real-time)
 - API: create/update parking lot (operator)
 - Database schema: parking lots/spots table
+- Admin: manage and suspend accounts
+
+**Sprint 3 goal:** Drivers can pay and see their history, and operators can set prices and see reports.
+
+Sprint 3 scope (13 items):
+- API: process payment
+- API: set/update pricing rules
+- Driver: payment entry screen
+- Driver: view receipt/payment history
+- Driver: reservation history view
+- API: retrieve reservation history
+- Operator: manage pricing per lot
+- Operator: daily revenue report
+- Operator: occupancy rate report (per lot)
+- Operator: export reports (CSV/PDF)
+- Background job: auto-expire unpaid reservations
+- Driver: notifications and alerts
+- Driver: navigation to reserved spot
+
 
 ## Risk Management & Communication Plan
 
@@ -406,6 +426,7 @@ Sprint 2 scope (11 items):
 ### Week 9 — November 5, 2026
 
 - Rebuilt the Gantt chart in ProjectLibre (55 tasks, Sep 14 – Oct 30, 2026) with predecessors, resources, and the critical path
+- Planned Sprint 3 in Trello (13 items) and added 3 new backlog items (48 total)
 - Wrote the Project Closure Report
 - Researched and wrote a post-mortem on the HealthCare.gov launch (separate document)
 - Recorded week 8 video update for stakeholders
