@@ -3,7 +3,7 @@
 **Student:** Vy Nguyen
 **Course:** CIS 4374
 **Project:** Smart Parking Platform — Semester Project
-**Date:** October 1, 2026
+**Date:** November 5, 2026
 
 ## AI Tool Used
 
@@ -29,5 +29,6 @@ I used Claude as a support tool while working on this project, mainly to:
 
 ## Note
 
-AI was used to support my learning and save time on formatting/wording, especially given the language and time constraints I'm working with this semester. All ideas and decisions in this project are my own.
-Used Claude to help me draft the stakeholder analysis and charters, then I reviewed and edited them myself.
+- AI was used to support my learning and save time on formatting/wording, especially given the language and time constraints I'm working with this semester. I made the final decisions and checked everything, but some ideas came from AI suggestions.
+- Used Claude to help me draft the stakeholder analysis and charters, then I reviewed and edited them myself.
+- Used AI to help find sources about the HealthCare.gov failure and draft the closure report, then I reviewed and edited them myself.

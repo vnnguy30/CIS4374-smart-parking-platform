@@ -1,7 +1,7 @@
 # Vision and Scope Document: Smart Parking Platform
 
-**Version:** 0.1
-**Last updated:** September 10, 2026
+**Version:** 0.2
+**Last updated:** November 5, 2026
 
 ## 1. How This Project Was Acquired
 
@@ -21,43 +21,56 @@ Drivers often spend significant time searching for available parking, leading to
 
 ## 5. Vision Statement
 
-For drivers who waste time circling for parking, and for operators who lack visibility into their facilities, the Smart Parking Platform is a real-time parking reservation and management system that connects drivers to available spaces instantly and gives operators the tools to manage their assets efficiently. Unlike existing static parking-finder apps, our platform provides live availability, in-app reservation and payment, and an integrated operator dashboard in one connected system.
+Some drivers waste time looking for parking, and some operators cannot see what is happening in their lots. The Smart Parking Platform helps both. Drivers can see open spots right away, reserve one, and pay in the app. Operators get one dashboard to manage their lots. Many parking apps only show a list of places. Our platform shows live open spots, takes reservations and payments, and gives operators their own tools, all in one place.
 
 ## 6. Project Scope
 
 ### In Scope
-- Driver-facing web and mobile applications
-- Real-time space availability and interactive map
-- Reservation and digital payment processing
-- Operator administrative dashboard and analytics
+- Website and mobile app for drivers
+- Sign up, log in, reset password, and different access for drivers, operators, and admins
+- Admins can manage and suspend accounts
+- Live map that shows open spots
+- Reserve a spot and pay online
+- Cancel a reservation by itself if it is not paid in time
+- Receipts and reservation history
+- Operator dashboard for lots, prices, and reports
+- Reports that can be saved as PDF or CSV
 - Notifications and alerts
-- Integration with third-party mapping/navigation services
+- Directions to the spot using an outside map service
 
-### Out of Scope (for this phase)
-- Physical hardware installation (sensors, gates, cameras)
-- Integration with vehicle manufacturers (in-car systems)
-- Autonomous vehicle parking assistance
+### Out of Scope
+- Hardware at the garages, like sensors, gates, or cameras
+- Connecting to car systems from car companies
+- Parking help for self-driving cars
+- A public API for other companies
+- Use outside the United States
 
 ## 7. Research: Existing Landscape
 
-Existing solutions in this space (e.g., SpotHero, ParkMobile, municipal parking apps) generally offer either space reservation OR real-time availability, but rarely combine both with an equally robust operator-side dashboard. Our platform aims to differentiate by offering:
-- A unified experience for both drivers and operators in one platform
-- Real-time occupancy data (not just static listings)
-- Deeper analytics and reporting tools for operators, not just payment processing
+Apps like SpotHero, ParkMobile, and city parking apps usually do one main thing. They let you reserve a spot, or they show open spots, but they rarely do both. They also give parking operators only simple tools. Our platform is different because:
+- Drivers and operators use the same system
+- It shows live open spots, not only a list of places
+- Operators get real reports, not only payment tools
 
 ## 8. Stakeholders
 
-- Drivers and vehicle owners
-- Parking facility operators
+- Executive sponsor
+- Drivers and car owners
+- Parking lot operators
 - City transportation departments
-- System administrators
-- Finance and billing personnel
-- Mobile application users
-- Third-party payment providers
+- System admins
+- Finance and billing staff
+- Mobile app users
+- Payment companies
+- Map service company
+- Nearby businesses and neighbors
+
+See the Power-Interest Grid in PROJECT.md to see how we work with each group.
 
 ## 9. Constraints and Assumptions
 
-- Unlimited theoretical development budget (course assumption)
-- Fixed semester timeline
-- Dependence on third-party services and APIs (maps, payments)
-- Must comply with data security/privacy requirements and applicable city ordinances and laws
+- Budget: unlimited for the class, but we planned $88,000 for this phase ($78,000 for people, $2,000 for other costs, and $8,000 saved for risks)
+- Schedule: 8 weeks, from September 14 to October 30, 2026
+- We depend on outside services for maps and payments
+- We must follow security and privacy rules, and city laws
+- We assume each team member can work the hours in the Resource Plan (see PROJECT.md)

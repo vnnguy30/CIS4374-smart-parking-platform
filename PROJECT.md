@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
-**Version:** 0.7 (Week 7)
-**Last updated:** October 29, 2026
+**Version:** 0.8 (Week 9)
+**Last updated:** November 5, 2026
 
 ## Table of Contents
 
@@ -113,21 +113,26 @@ Additional requirements will be identified through stakeholder analysis and requ
       4. Risk register & communication plan
       5. Resource & cost plan, RACI
 
-### Draft Timeline
+### Timeline
 
-This is a rough draft timeline and will be refined as scope firms up.
+The project runs from **Monday, September 14, 2026 to Friday, October 30, 2026** (35 working days, 8-hour days, Monday to Friday). The Gantt chart was built in ProjectLibre with 55 tasks, predecessors, and resources.
 
-![Timeline Gantt Chart](./assets/gantt-v2.png)
+![Timeline Gantt Chart](./assets/gantt-v3.png)
 
-| Phase | Weeks |
-|---|---|
-| Authentication & user management (Sprint 1) | 2–3 |
-| Driver-facing features | 3–5 |
-| Operator dashboard (Sprint 2) | 4–6 |
-| Payments, pricing & reporting (Sprint 3) | 6–7 |
-| Testing & QA (starts early, runs with development) | 3–8 |
-| Final fixes & wrap-up | 8 |
-| PM docs (ongoing) | 2–8 |
+**Red bars show the critical path.** If a red task is late, the whole project is late. Blue bars have extra time (slack).
+
+| Phase | Weeks | Dates |
+|---|---|---|
+| Project kickoff (milestone) | 2 | Sep 14 |
+| Sprint 1: Accounts, login & reservations | 2–3 | Sep 14 – Sep 25 |
+| Sprint 2: Operator tools & availability | 4–5 | Sep 28 – Oct 8 |
+| Sprint 3: Payments, pricing & reports | 6–7 | Oct 9 – Oct 21 |
+| Testing & QA (runs with development) | 3–8 | Sep 21 – Oct 26 |
+| Final week & closure | 8 | Oct 22 – Oct 30 |
+| Project management, weekly updates, videos, risk reviews | 2–8 | Sep 14 – Oct 30 |
+| Project complete (milestone) | 8 | Oct 30 |
+
+**Critical path:** kickoff → Sprint 1 backend (users table, accounts, login, reservations) → Sprint 2 lots, availability map, and operator fixes → Sprint 3 payments and receipts → Sprint 3 testing → final testing → bug fixes → closure report → Project complete.
 
 ## Product Backlog & Sprint Planning
 
@@ -396,3 +401,71 @@ Sprint 2 scope (11 items):
 - Created a stakeholder analysis with a Power-Interest Grid
 - Wrote a project charter and a team charter
 - Recorded week 7 video update for stakeholders
+
+
+### Week 9 — November 5, 2026
+
+- Rebuilt the Gantt chart in ProjectLibre (55 tasks, Sep 14 – Oct 30, 2026) with predecessors, resources, and the critical path
+- Wrote the Project Closure Report
+- Researched and wrote a post-mortem on the HealthCare.gov launch (separate document)
+- Recorded week 8 video update for stakeholders
+
+
+## Project Closure Report
+
+**INTERNAL: for $oftware ¢orp. use only**
+
+| Item | Details |
+|---|---|
+| Project | Smart Parking Platform |
+| Project manager | Alex Rivera (fictional) |
+| Executive sponsor | Jamie Torres (fictional) |
+| Duration | Weeks 1 to 8 (September 7 to November 5, 2026) |
+| Planned budget | $88,000 ($78,000 labor, $2,000 other costs, $8,000 reserve) |
+| Actual spend | Not applicable. This was a planning project, so costs stayed estimates. |
+| Status | Planning phase closed. Build phase not started. |
+
+### Executive Summary
+
+The goal was to plan a real-time parking reservation platform for drivers and parking operators. In 8 weeks, the team finished the full project plan: requirements, work breakdown, timeline, backlog, risks, costs, roles, and charters. Every week, the documents were updated and a short video was shared with stakeholders. The platform itself was not built, so the next step is to start Sprint 1. The plan is ready, and the planned budget is $88,000.
+
+### Achievements
+
+- Public GitHub repository with all project documents, updated every week
+- SRS version 0.2: 20 functional requirements, 7 non-functional requirements, and 20 use cases
+- 12 user stories
+- Work Breakdown Structure and a timeline with a Gantt chart
+- Product backlog with 45 items, with Sprint 1 and Sprint 2 planned in Trello
+- Risk Register with 16 risks, and a Communication Plan
+- Roles, a bottom-up cost plan with a reserve, and a RACI matrix
+- Stakeholder analysis (Power-Interest Grid), project charter, and team charter
+- Weekly video updates for stakeholders
+
+### Shortfalls
+
+- No software was built. Sprint 1 and Sprint 2 were planned but never started.
+- Sprint 3 was not planned in Trello.
+- Costs and the schedule are estimates. We have no real numbers to compare against.
+- Stakeholders were fictional, so we did not interview real operators or drivers.
+- The Research Component section is still empty.
+- Some small mistakes were found late, like a missing log entry and a README status that was out of date.
+
+### Lessons Learned
+
+1. Keep documents matching each other. In Week 6, I found requirements in the backlog that were missing from the SRS.
+2. Plan testing early. Risk R07 showed that testing time can get too short, so I added a testing phase from week 3.
+3. Count all costs, not only labor, and keep a reserve for risks.
+4. Small weekly steps were easier than doing everything at the end.
+5. A simple tool like Trello is enough for a small team.
+6. Check files before pushing. A missing file stopped one commit, and a checklist helped.
+
+### Recommendations for Future Projects
+
+- Start Sprint 1 and move Trello cards through In Progress and Done, so progress is real.
+- Plan Sprint 3, and review the Risk Register at the end of every sprint.
+- Track actual cost against the plan, using the formulas from Class 6.
+- Interview real operators and drivers before finalizing requirements.
+- Start load testing early, and release in phases instead of all at once.
+- Use a short checklist for every document update.
+
+**Closed by:** Alex Rivera, Project Manager (fictional). **Date:** November 5, 2026.

@@ -27,4 +27,5 @@ Week 3 — created full product backlog (45 items) and planned Sprint 1 in Trell
 Week 4 — identified risks in four categories, built a Risk Register, and created a Communication Plan.
 Week 5 — defined roles, built a Resource & Cost Plan with monthly cashflow, and created a RACI matrix.
 Week 6 — updated SRS, user stories, WBS, timeline, backlog (Sprint 2), risks, cost plan, and RACI.
-Week 7 — added stakeholder analysis (Power-Interest Grid), project charter, and team charter.
+Week 8 — added stakeholder analysis (Power-Interest Grid), project charter, and team charter.
+Week 9 — wrote the project closure report and a post-mortem on the HealthCare.gov launch; rebuilt the Gantt chart in ProjectLibre (55 tasks, Sep 14 – Oct 30, 2026) with the critical path (`assets/gantt-v3.png`).

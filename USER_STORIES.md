@@ -1,5 +1,8 @@
 # User Stories
 
+**Version:** 0.2
+**Last updated:** November 5, 2026
+
 | ID | User Story | Sprint |
 |----|---|---|
 | US-1 | As a driver, I want to create an account, so that I can reserve parking. | 1 |
@@ -14,3 +17,9 @@
 | US-10 | As an operator, I want to add and edit lots and spots, so that the system shows the right information. | 2 |
 | US-11 | As an operator, I want to set prices, so that I can control my revenue. | 3 |
 | US-12 | As an operator, I want to see daily revenue and occupancy reports, so that I can make better decisions. | 3 |
+| US-13 | As a driver, I want to pay in the app, so that I do not need cash at the garage. | 3 |
+| US-14 | As a driver, I want to get alerts about my reservation, so that I do not forget it. | 3 |
+| US-15 | As a driver, I want directions to my spot, so that I can get there easily. | 3 |
+| US-16 | As an admin, I want to manage and suspend accounts, so that I can stop people who misuse the app. | 2 |
+| US-17 | As an operator, I want unpaid reservations to cancel by themselves, so that other drivers can use those spots. | 3 |
+| US-18 | As an operator, I want to export reports as PDF or CSV, so that I can share them with my team. | 3 |
