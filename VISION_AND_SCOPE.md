@@ -70,7 +70,7 @@ See the Power-Interest Grid in PROJECT.md to see how we work with each group.
 ## 9. Constraints and Assumptions
 
 - Budget: unlimited for the class, but we planned $88,000 for this phase ($78,000 for people, $2,000 for other costs, and $8,000 saved for risks)
-- Schedule: 8 weeks, from September 14 to October 30, 2026
+- Schedule: 8-week project. Week 1 was planning, and the build runs in Weeks 2–8, from **September 14 to October 30, 2026** (35 working days)
 - We depend on outside services for maps and payments
 - We must follow security and privacy rules, and city laws
 - We assume each team member can work the hours in the Resource Plan (see PROJECT.md)

@@ -323,13 +323,13 @@ Sprint 3 scope (13 items):
 | Purpose | Help drivers find, reserve, and pay for parking in real time, and help operators manage their lots. |
 | Business need | Drivers waste time searching for parking. Operators need better tools for occupancy and pricing. |
 | Objectives | 1. Finish a working plan and build for web and mobile apps in 8 weeks. 2. Let drivers search, reserve, and pay for a spot. 3. Give operators a dashboard for lots, prices, and reports. 4. Stay within the $88,000 budget. |
-| In scope | Driver and operator accounts, availability map, reservations, payments, receipts, operator dashboard, reports, notifications, navigation. |
-| Out of scope | Hardware at the garages (gates, sensors), a public API for other companies, and support for countries outside the US. |
+| In scope | Driver and operator accounts, admin account management, availability map, reservations, payments, receipts, auto-cancel of unpaid reservations, operator dashboard, reports with PDF/CSV export, notifications, navigation. |
+| Out of scope | Hardware at the garages (gates, sensors, cameras), car company systems, self-driving cars, a public API for other companies, and support for countries outside the US. |
 | Main deliverables | SRS, user stories, work breakdown, timeline, backlog and sprints, risk register, cost plan, RACI, weekly videos, and the working platform. |
-| Milestones | Week 3: Sprint 1 done. Week 6: Sprint 2 done. Week 7: Sprint 3 done. Week 8: final fixes and wrap-up. |
+| Milestones | Week 2: Kickoff (Sep 14). Week 3: Sprint 1 done (Sep 25). Week 5: Sprint 2 done (Oct 8). Week 7: Sprint 3 done (Oct 21). Week 8: Project complete (Oct 30). |
 | Budget | $88,000 total: $78,000 labor, $2,000 other costs, and an $8,000 reserve. |
 | Assumptions | The team is available at the planned percentages. Payment and map services stay available. Requirements stay close to the SRS. |
-| Constraints | Fixed 8-week schedule, third-party services, and security, privacy, and city rules. |
+| Constraints | Fixed schedule (Weeks 2–8, Sep 14 – Oct 30, 2026), third-party services, and security, privacy, and city rules. |
 | Top risks | Parking data sync problems (R01), map service downtime (R02), and testing time getting too short (R07). |
 | Success criteria | Drivers can reserve and pay for a spot. Operators can manage lots and see reports. The project finishes on time and within budget. |
 | Authority | The project manager can move work between sprints and approve spending inside the plan. Budget or scope changes need the sponsor. |
@@ -427,6 +427,7 @@ Sprint 3 scope (13 items):
 
 - Rebuilt the Gantt chart in ProjectLibre (55 tasks, Sep 14 – Oct 30, 2026) with predecessors, resources, and the critical path
 - Planned Sprint 3 in Trello (13 items) and added 3 new backlog items (48 total)
+- Updated the project charter (milestones, scope, and dates) to match the new Gantt chart
 - Wrote the Project Closure Report
 - Researched and wrote a post-mortem on the HealthCare.gov launch (separate document)
 - Recorded week 8 video update for stakeholders
