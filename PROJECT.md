@@ -58,6 +58,9 @@ Additional requirements will be identified through stakeholder analysis and requ
 - Finance and billing personnel
 - Mobile application users
 - Third-party payment providers
+- Executive sponsor
+- Mapping service provider
+- Nearby businesses and residents
 
 ## Development Teams
 
@@ -70,8 +73,8 @@ Additional requirements will be identified through stakeholder analysis and requ
 
 ## Project Constraints
 
-- Unlimited theoretical development budget
-- Fixed semester timeline
+- Unlimited theoretical development budget (course assumption). Planned budget for this phase: $88,000
+- Fixed schedule: Weeks 2–8, September 14 – October 30, 2026
 - Dependence on third-party services and APIs
 - Compliance with security and privacy requirements, city ordinance & laws
 
@@ -115,7 +118,7 @@ Additional requirements will be identified through stakeholder analysis and requ
 
 ### Timeline
 
-The project runs from **Monday, September 14, 2026 to Friday, October 30, 2026** (35 working days, 8-hour days, Monday to Friday). The Gantt chart was built in ProjectLibre with 55 tasks, predecessors, and resources.
+The project runs from **Monday, September 14, 2026 to Friday, October 30, 2026** (35 working days, 8-hour days, Monday to Friday). The Gantt chart was built in ProjectLibre with 57 tasks, predecessors, and resources.
 
 ![Timeline Gantt Chart](./assets/gantt-v3.png)
 
@@ -425,12 +428,15 @@ Sprint 3 scope (13 items):
 
 ### Week 9 — November 5, 2026
 
-- Rebuilt the Gantt chart in ProjectLibre (55 tasks, Sep 14 – Oct 30, 2026) with predecessors, resources, and the critical path
+- Rebuilt the Gantt chart in ProjectLibre (57 tasks, Sep 14 – Oct 30, 2026) with predecessors, resources, and the critical path
 - Planned Sprint 3 in Trello (13 items) and added 3 new backlog items (48 total)
 - Updated the project charter (milestones, scope, and dates) to match the new Gantt chart
+- Added 2 tasks to the plan for SRS requirements FR-18 and FR-19
+- Updated VISION_AND_SCOPE.md to v0.2 (scope, stakeholders, budget, and dates)
+- Added 6 new user stories (18 total) and updated AI_USE.md
 - Wrote the Project Closure Report
 - Researched and wrote a post-mortem on the HealthCare.gov launch (separate document)
-- Recorded week 8 video update for stakeholders
+- Recorded week 9 video update (closure report) for stakeholders
 
 
 ## Project Closure Report
@@ -455,9 +461,9 @@ The goal was to plan a real-time parking reservation platform for drivers and pa
 
 - Public GitHub repository with all project documents, updated every week
 - SRS version 0.2: 20 functional requirements, 7 non-functional requirements, and 20 use cases
-- 12 user stories
-- Work Breakdown Structure and a timeline with a Gantt chart
-- Product backlog with 45 items, with Sprint 1 and Sprint 2 planned in Trello
+- 18 user stories
+- Work Breakdown Structure and a Gantt chart with 57 tasks and the critical path
+- Product backlog with 48 items, with all 3 sprints planned in Trello
 - Risk Register with 16 risks, and a Communication Plan
 - Roles, a bottom-up cost plan with a reserve, and a RACI matrix
 - Stakeholder analysis (Power-Interest Grid), project charter, and team charter
@@ -465,8 +471,7 @@ The goal was to plan a real-time parking reservation platform for drivers and pa
 
 ### Shortfalls
 
-- No software was built. Sprint 1 and Sprint 2 were planned but never started.
-- Sprint 3 was not planned in Trello.
+- No software was built. All 3 sprints were planned but never started.
 - Costs and the schedule are estimates. We have no real numbers to compare against.
 - Stakeholders were fictional, so we did not interview real operators or drivers.
 - The Research Component section is still empty.
@@ -484,7 +489,7 @@ The goal was to plan a real-time parking reservation platform for drivers and pa
 ### Recommendations for Future Projects
 
 - Start Sprint 1 and move Trello cards through In Progress and Done, so progress is real.
-- Plan Sprint 3, and review the Risk Register at the end of every sprint.
+- Review the Risk Register at the end of every sprint.
 - Track actual cost against the plan, using the formulas from Class 6.
 - Interview real operators and drivers before finalizing requirements.
 - Start load testing early, and release in phases instead of all at once.
