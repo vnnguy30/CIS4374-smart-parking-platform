@@ -7,16 +7,19 @@
 
 1. [Project Overview](#project-overview)
 2. [Business Need](#business-need)
-3. [High-Level Requirements](#high-level-requirements)
-4. [Stakeholders](#stakeholders)
-5. [Development Teams](#development-teams)
-6. [Project Constraints](#project-constraints)
-7. [Research Component](#research-component)
-8. [Work Breakdown Structure & Timeline](#work-breakdown-structure--timeline)
-9. [Product Backlog & Sprint Planning](#product-backlog--sprint-planning)
-10. [Risk Management & Communication Plan](#risk-management--communication-plan)
-11. [Resource & Cost Management](#resource--cost-management)
-12. [Weekly Update Log](#weekly-update-log)
+3. [Project Acquisition](#project-acquisition)
+4. [High-Level Requirements](#high-level-requirements)
+5. [Stakeholders](#stakeholders)
+6. [Development Teams](#development-teams)
+7. [Project Constraints](#project-constraints)
+8. [Research Component](#research-component)
+9. [Work Breakdown Structure & Timeline](#work-breakdown-structure--timeline)
+10. [Product Backlog & Sprint Planning](#product-backlog--sprint-planning)
+11. [Risk Management & Communication Plan](#risk-management--communication-plan)
+12. [Resource & Cost Management](#resource--cost-management)
+13. [Stakeholder Analysis & Charters](#stakeholder-analysis--charters)
+14. [Weekly Update Log](#weekly-update-log)
+15. [Project Closure Report](#project-closure-report)
 
 ---
 
@@ -554,5 +557,37 @@ The goal was to plan a real-time parking reservation platform for drivers and pa
 - Interview real operators and drivers before finalizing requirements.
 - Start load testing early, and release in phases instead of all at once.
 - Use a short checklist for every document update.
+
+### Proposal for Post-Project Contract
+
+After launch, $oftware ¢orp. offers the client two contract options. We recommend starting with maintenance, then adding scaling when demand grows.
+
+**Option A: Maintenance contract (12 months)**
+- Fix bugs and security problems.
+- Monitor the system (uptime, payments, and reservations).
+- Update the software and server when needed.
+- Answer support requests from drivers and operators.
+- Team each month: Sam Patel 20 hours, Riley Chen 10 hours, Alex Rivera 5 hours.
+- Cost: about $2,100 per month (labor $1,750 plus $350 for hosting and monitoring tools). Total for 12 months: about $25,200.
+
+**Option B: Scaling contract (3 months)**
+- Add more cities and parking lots.
+- Test and improve the system for 10,000 users at the same time (the first release is tested for 1,000).
+- Add new features from the product backlog, such as native mobile apps and reservation reminders.
+- Team: Sam, Jordan, Morgan, Riley, Alex, and Taylor, about 480 total hours.
+- Cost: labor $25,200 plus $1,800 for cloud and testing tools, plus a 10% reserve. Total: about $29,700.
+
+**Our recommendation**
+Start with Option A for the first 6 months. If the number of users grows, or the client wants more cities, add Option B. This keeps the client's cost low and protects the quality of the system.
+
+**How we will measure success**
+- System uptime of 99% or higher.
+- Support requests answered within 1 business day.
+- Critical bugs fixed within 3 business days.
+- Client review meeting every month.
+
+**Assumptions**
+- Costs use the same hourly rates as the project cost plan.
+- Prices are estimates and can change if the client's needs change.
 
 **Closed by:** Alex Rivera, Project Manager (fictional). **Date:** November 5, 2026.
