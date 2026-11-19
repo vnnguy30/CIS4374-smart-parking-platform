@@ -1,7 +1,7 @@
 # Semester Project: Smart Parking Platform
 
-**Version:** 0.8 (Week 9)
-**Last updated:** November 5, 2026
+**Version:** 0.9 (Week 11)
+**Last updated:** November 19, 2026
 
 ## Table of Contents
 
@@ -31,6 +31,28 @@ The goal is to develop a project management plan for the creation of this system
 ## Business Need
 
 Drivers often spend significant time searching for available parking, leading to congestion, frustration, and lost productivity. Parking operators need better tools to monitor occupancy, manage pricing, and improve utilization of parking assets.
+
+## Project Acquisition
+
+**How we got the project**
+The client is a fictional parking company led by executive sponsor Jamie Torres. The client sent a short request for proposal (RFP) to software studios. $oftware ¢orp. sent a proposal and was selected.
+
+**What the client asked for**
+A real-time parking reservation platform with web and mobile apps for drivers and an operator dashboard, finished in 8 weeks (Sept 14 to Oct 30, 2026).
+
+**Why we selected this project (go/no-go)**
+- It fits our skills in web, mobile, mapping, and payments.
+- The budget ($88,000) and the 8-week schedule are realistic for our team.
+- The market is real, and the competition is strong but not closed (see Research Component).
+- Main risks are known and have a plan (see Risk Register).
+
+**Contract type**
+Fixed price of $88,000: $78,000 labor, $2,000 other costs, and $8,000 reserve. Changes in scope go through the project manager and the sponsor, and are priced as change requests. We chose this type because a project that pays only costs, with no limit, can grow out of control. The HealthCare.gov post-mortem showed this problem.
+
+**Who is responsible**
+- Project manager: Alex Rivera
+- Executive sponsor (approval): Jamie Torres
+- Next step after planning: a signed agreement and start of Sprint 1
 
 ## High-Level Requirements
 
@@ -79,6 +101,37 @@ Additional requirements will be identified through stakeholder analysis and requ
 - Compliance with security and privacy requirements, city ordinance & laws
 
 ## Research Component
+
+### Market Research: Who Is Our Competition?
+
+The parking app market already has strong companies. We studied two of them to see what they offer and where our platform can be different.
+
+| | SpotHero | ParkMobile |
+|---|---|---|
+| What it does | Lets drivers reserve parking in advance at lots and garages | Lets drivers pay for parking by phone and also reserve spots |
+| Where | 400+ cities in the US and Canada | Many US cities, campuses, and venues, working with cities and private operators |
+| Driver features | Book hourly, monthly, airport, or event parking. Price includes taxes and fees. Prepaid parking pass by email. Full refund if cancelled before the start time. | Find parking, reserve a spot, and pay by phone (including Express pay) |
+| Operator features | Operators set how far ahead spots can be booked and set fees | Dashboard, reservations, payments, management, and insights tools |
+| Customers | Drivers, parking operators, airports, event venues, property managers | Drivers, cities, event venues, private operators, campuses, transit and airports |
+
+**What we learned**
+- Reserving a spot in advance and paying online is already normal for drivers. We must have it to compete.
+- Competitors serve both drivers and operators, so our operator dashboard is important.
+- Competitors already work with cities and large venues. A new company needs a clear focus.
+
+**Where our platform can be different**
+- Real-time availability for individual spots on an interactive map.
+- Navigation to the reserved spot.
+- An operator dashboard that sets pricing per lot and shows daily revenue and occupancy reports, with PDF and CSV export.
+- Auto-cancel of unpaid reservations, so spots do not stay blocked.
+
+**Limits of this research**
+- It uses the companies' public websites only. We did not test their apps or see their prices.
+- Features can change, so this should be checked again before a real launch.
+
+**Sources**
+- [SpotHero FAQ: How SpotHero Works](https://spothero.com/faq)
+- [ParkMobile Resource Center](https://parkmobile.io/how-it-works/)
 
 ## Work Breakdown Structure & Timeline
 
@@ -438,6 +491,13 @@ Sprint 3 scope (13 items):
 - Researched and wrote a post-mortem on the HealthCare.gov launch (separate document)
 - Recorded week 9 video update (closure report) for stakeholders
 
+### Week 11 — November 19, 2026
+
+- Added market research on competitors (SpotHero and ParkMobile) in the Research Component
+- Added a Project Acquisition section (how we got the project, go/no-go, and contract type)
+- Expanded the Project Closure Report with a proposal for a maintenance or scaling contract
+- Updated the table of contents and the Shortfalls list
+- Recorded week 11 video update for stakeholders
 
 ## Project Closure Report
 
@@ -474,7 +534,7 @@ The goal was to plan a real-time parking reservation platform for drivers and pa
 - No software was built. All 3 sprints were planned but never started.
 - Costs and the schedule are estimates. We have no real numbers to compare against.
 - Stakeholders were fictional, so we did not interview real operators or drivers.
-- The Research Component section is still empty.
+- Market research used public websites only. We did not test competitor apps or see their prices.
 - Some small mistakes were found late, like a missing log entry and a README status that was out of date.
 
 ### Lessons Learned

@@ -10,7 +10,7 @@ This repository contains the semester-long project management plan for the **Sma
 - `USER_STORIES.md` — user stories for drivers and operators, linked to sprints.
 - `AI_USE.md` — disclosure of how AI tools were used to support this project.
 - `assets/` — supporting images (Gantt chart) referenced in the project documents.
-- `docs/` — supporting screenshots and exports (Trello board) referenced in the project documents.
+- `docs/` — supporting screenshots and exports (Trello boards, stakeholder grid, post-mortem) referenced in the project documents.
 
 ## Weekly Process
 
@@ -27,5 +27,6 @@ Week 3 — created full product backlog (45 items) and planned Sprint 1 in Trell
 Week 4 — identified risks in four categories, built a Risk Register, and created a Communication Plan.
 Week 5 — defined roles, built a Resource & Cost Plan with monthly cashflow, and created a RACI matrix.
 Week 6 — updated SRS, user stories, WBS, timeline, backlog (Sprint 2), risks, cost plan, and RACI.
-Week 8 — added stakeholder analysis (Power-Interest Grid), project charter, and team charter.
+Week 7 — added stakeholder analysis (Power-Interest Grid), project charter, and team charter.
 Week 9 — wrote the project closure report and a post-mortem on the HealthCare.gov launch; rebuilt the Gantt chart in ProjectLibre (55 tasks, Sep 14 – Oct 30, 2026) with the critical path (`assets/gantt-v3.png`).
+Week 11 — added market research on competitors, a project acquisition section, and a maintenance/scaling contract proposal in the closure report; updated the table of contents.
